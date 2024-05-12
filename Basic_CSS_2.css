@@ -1,0 +1,14 @@
+p {
+	color: green;
+	background: yellow;
+	font-size: large;
+	text-align: center;
+	}
+	/*Colored shadow */
+h1.colored-shadow {
+		text-shadow: 10px 10px 30px #008000;
+	}
+	/* Dramatic shadow */
+p.dramatic-shadow {
+	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
