@@ -34,7 +34,7 @@ h1{
 --------------------------------------*/
 
 .container .squares:nth-child(-n+4) {
-    background-image: url(C:\Users\elise\OneDrive\Desktop\Documents\HTML-and-CSS-Projects\Basic_HTML_and_CSS\Icons\smileyface2.png);
+    background-image: url(./Icons/icons.png);
     color: #fff;
     float: left;
     width: 100px;
@@ -84,7 +84,7 @@ h1{
 --------------------------------------------------*/
 
 .container .squares:nth-child(-n+4):hover{
-    background-image: url(C:\Users\elise\OneDrive\Desktop\Documents\HTML-and-CSS-Projects\Basic_HTML_and_CSS\Icons\smileyface1.png);
+    background-image: url(./Icons/icons2.png);
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -113,7 +113,7 @@ h1{
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url(..Basic_HTML_and_CSS\Icons\smileyface1.png);
+        background-image: url(./Icons/icons2.png);
     }
     50% {
         transform: translateY(300px);
